@@ -1,0 +1,61 @@
+
+
+.sobre-nos__descricao {
+    width: 100%;
+    margin-top: 96px;
+    margin-bottom: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre-nos__descricao__titulo {
+    color: var(--vermelho-secundario);
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.sobre-nos__descricao__subtitulo {
+    color: var(--preto-texto);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.sobre-nos__descricao__texto {
+    color: var(--cinza-texto);
+    font-size: 20px;
+    width: 60%;
+}
+
+.sobre-nos__dados {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto 96px auto;
+    gap: 32px;
+}
+
+.sobre-nos__dados__item{
+    width: 25%;
+}
+
+.sobre-nos__dados__item__numeros {
+    color: var(--vermelho-secundario);
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.sobre-nos__dados__item__titulo {
+    color: var(--preto-texto);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.sobre-nos__dados__item__texto {
+    color: var(--cinza-texto);
+    font-weight: 400;
+}

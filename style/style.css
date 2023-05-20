@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --font-family: 'Inter', sans-serif;
+    --branco-primario: #FFFFFF;
+    --vermelho-secundario: #8E2424;
+    --preto-texto: #101828;
+    --cinza-texto: #667085;
+    --cinza-borda: #EAECF0;
+    --branco-formulario: #F9FAFB;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    background-color: var(--branco-primario);
+    box-sizing: border-box;
+}
+
